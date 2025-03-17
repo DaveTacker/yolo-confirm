@@ -1,0 +1,14 @@
+﻿## Interface: 30300
+## Title: YOLO - Auto Confirm
+## Author: Dave Tacker
+## Version: 1.0
+## Notes: Auto confirm on item transmogrification, binding, etc.
+## SavedVariables: YOLO_ConfirmDB
+## OptionalDeps: Ace3
+
+# Libraries
+Libs\Libs.xml
+
+# Load order is important - config must load before main
+main.lua
+config.lua
