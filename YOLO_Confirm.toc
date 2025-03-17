@@ -9,6 +9,6 @@
 # Libraries
 Libs\Libs.xml
 
-# Load order is important - config must load before main
+# Load order is important
 main.lua
 config.lua

@@ -89,14 +89,6 @@ local function SetupConfig()
     
     -- Add to Interface Options
     YOLO_Confirm.optionsFrame = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("YOLO_Confirm", "YOLO Confirm")
-    
-    -- Create slash command
-    YOLO_Confirm:RegisterChatCommand("yolo", "ChatCommand")
-    YOLO_Confirm:RegisterChatCommand("yoloconfirm", "ChatCommand")
-end
-
-function YOLO_Confirm:ChatCommand(input)
-    LibStub("AceConfigDialog-3.0"):Open("YOLO_Confirm")
 end
 
 -- Run the setup automatically when this file loads

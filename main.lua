@@ -14,7 +14,7 @@ end
 
 function YOLO_Confirm:OnInitialize()
     -- Print initialization message
-    self:PrintMsg("Addon initialized")
+    -- self:PrintMsg("Addon initialized")
     
     -- Register for loot roll confirmation
     self:RegisterEvent("CONFIRM_LOOT_ROLL")
