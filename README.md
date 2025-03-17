@@ -18,11 +18,7 @@ YOLO Confirm automatically accepts the following types of confirmation dialogs:
 4. Restart World of Warcraft if it's currently running
 
 ## Configuration
-YOLO Confirm comes with an easy-to-use configuration panel accessible through the Interface Options menu or via slash commands.
-
-### Accessing Settings
-- **Interface Menu**: Go to Interface → AddOns → YOLO Confirm
-- **Slash Commands**: Type `/yolo` or `/yoloconfirm` in chat
+YOLO Confirm comes with an easy-to-use configuration panel accessible through the Interface Options menu.
 
 ### Options
 - Enable/disable each type of auto-confirmation individually:
@@ -41,14 +37,8 @@ YOLO Confirm comes with an easy-to-use configuration panel accessible through th
 ## Dependencies
 - Ace3 (included)
 
-## Author
-Created by Dave Tacker
-
 ## Version History
 - **1.0**: Initial release
-
-## License
-All rights reserved.
 
 ## Feedback and Support
 If you encounter any issues or have suggestions for improvements, please let me know!
